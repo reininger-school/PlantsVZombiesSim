@@ -54,7 +54,7 @@ public class Game {
     private void printZombies() {
         this.out.print("[");
 
-        for (var zombie : this.zombies) {
+        for (Zombie zombie : this.zombies) {
             this.out.printf("%s/%d, ", zombie.getType(), zombie.getHealth());
         }
 

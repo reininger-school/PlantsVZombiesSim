@@ -25,7 +25,7 @@ public abstract class EnemyObject {
     public int getHealth() {
         int totalHealth = this.health;
 
-        for (var accessory : this.children) {
+        for (EnemyObject accessory : this.children) {
             totalHealth += accessory.getHealth();
         }
 

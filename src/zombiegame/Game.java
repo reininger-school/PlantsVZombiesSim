@@ -16,6 +16,6 @@ public class Game {
     }
 
     private Zombie constructZombie() {
-
+        this.
     }
 }

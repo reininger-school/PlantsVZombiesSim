@@ -10,12 +10,7 @@ public class ZombieBuilder {
     Add zombie to composite.
      */
     public void buildZombie() {
-        if (this.zombie == null) {
-            this.zombie = new Zombie();
-        }
-        else {
-            this.zombie.add(new Zombie());
-        }
+        this.zombie = new Zombie();
     }
 
     /*

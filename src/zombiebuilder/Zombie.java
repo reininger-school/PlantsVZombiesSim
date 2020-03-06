@@ -4,6 +4,14 @@ package zombiebuilder;
 Represents Zombie enemy. Serves as composite class in composite pattern Serves as composite class in composite pattern.
  */
 public class Zombie extends EnemyObject {
+
+    /*
+    Create new instance of Zombie.
+     */
+    public Zombie() {
+        this.setHealth(50);
+    }
+
     /*
     Return ith child.
      */

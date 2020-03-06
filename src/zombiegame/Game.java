@@ -75,7 +75,7 @@ public class Game {
 
         switch (this.input.nextInt()) {
             case 1: this.state = this::createZombieMenu; break;
-            case 2: this.state = this::simulate; break;
+            case 2: this.state = this::playDemo; break;
             case 3: this.state = null; break;
             default: this.out.println("Invalid entry\n"); break;
         }
@@ -95,8 +95,13 @@ public class Game {
         this.state = this::mainMenu;
     }
 
-    private void simulate() {
-        final int damage = 25;
+    private void playDemo() {
+        this.out.println("Please enter pea shooter damage: ");
+        this.simulate(this.input.nextInt());
+        this.state = this::mainMenu;
+    }
+
+    private void simulate(int damage) {
         int round = 1;
 
         this.out.println("Start:");
@@ -114,7 +119,6 @@ public class Game {
         }
 
         this.out.println("All zombies killed.\n");
-        this.state = this::mainMenu;
     }
 
     public void runApp() {

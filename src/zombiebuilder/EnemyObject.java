@@ -38,7 +38,7 @@ public abstract class EnemyObject {
     Return ith child.
      */
     public EnemyObject getChild(int child) {
-        return null;
+        return this.children.get(child);
     }
 
     /*

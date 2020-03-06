@@ -7,9 +7,9 @@ Class representing enemy objects. Serves as Component of Composite pattern.
  */
 public abstract class EnemyObject {
     private int health;
-    private List<EnemyObject> children;
+    protected List<EnemyObject> children;
 
-    private void setHealth(int health) {
+    protected void setHealth(int health) {
         if (health < 0) {
             health = 0;
         }

@@ -1,10 +1,9 @@
 package zombiebuilder;
 
 /*
-Represents a Zombie enemy. Serves as composite class in composite pattern.
+Represents Zombie enemy. Serves as composite class in composite pattern Serves as composite class in composite pattern.
  */
 public class Zombie extends EnemyObject {
-
     /*
     Return ith child.
      */

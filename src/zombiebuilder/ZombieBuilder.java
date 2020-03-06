@@ -44,4 +44,11 @@ public class ZombieBuilder {
             this.zombie.add(new Door());
         }
     }
+
+    /*
+    Return composite Zombie.
+     */
+    public Zombie getZombie() {
+        return this.zombie;
+    }
 }

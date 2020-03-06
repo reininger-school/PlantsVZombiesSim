@@ -7,4 +7,5 @@ class Cone extends EnemyObject {
     public Cone() {
         this.setHealth(25);
     }
+
 }

@@ -1,0 +1,19 @@
+
+‚
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ªÕ—8Ö‘ùùŠ.
+Z
+java:S11441"8Remove this unused private "constructDoorZombie" method.(ÂÆ‰¼ûÿÿÿÿ8ìñèøŠ.
+m	java:S128<"LEnd this switch case with an unconditional break, return or throw statement.(Øğí×şÿÿÿÿ8ÄıüùŠ.
+S
+java:S1128"1Remove this unused import 'java.io.OutputStream'.(Ó ³ÿÿÿÿÿ8„¼ûøŠ.
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ªÕ—8Ö‘ùùŠ.
+M
+java:S1068"0Remove this unused "enemyObjects" private field.(ªÕ—8Ö‘ùùŠ.
+Z
+java:S1144"8Remove this unused private "constructConeZombie" method.(Š½¶öüÿÿÿÿ8æ¤äøŠ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.( ¤®æ8Ö‘ùùŠ.
+W
+java:S1144(":Remove this unused private "constructBucketZombie" method.(ñ®‹8ÅšåøŠ.
+V
+java:S1144"4Remove this unused private "constructZombie" method.(öµÃƒşÿÿÿÿ8ºÌÍøŠ.

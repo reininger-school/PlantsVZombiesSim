@@ -1,5 +1,6 @@
 package zombiegame.zombiebuilder;
 
+import java.util.LinkedList;
 import java.util.List;
 
 /*
@@ -8,6 +9,10 @@ Class representing enemy objects. Serves as Component of Composite pattern.
 public abstract class EnemyObject {
     private int health;
     protected List<EnemyObject> children;
+
+    protected EnemyObject() {
+        this.children = new LinkedList<EnemyObject>();
+    }
 
     protected void setHealth(int health) {
         if (health < 0) {
@@ -33,11 +38,11 @@ public abstract class EnemyObject {
         }
         return leftover;
     }
-
     /*
-    Actions to perform on death.
+    Return true if dead.
      */
-    public void Die() {
+    public boolean Die() {
+        return this.health <= 0;
     }
 
     /*

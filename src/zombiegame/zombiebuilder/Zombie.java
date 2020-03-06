@@ -12,14 +12,6 @@ public class Zombie extends EnemyObject {
         this.setHealth(50);
     }
 
-    public int getHealth() {
-        int health = super.getHealth();
-        for (var accessory : this.children) {
-            health += accessory.getHealth();
-        }
-        return health;
-    }
-
     /*
     Return ith child.
      */
@@ -46,9 +38,10 @@ public class Zombie extends EnemyObject {
 
     public int takeDamage(int d) {
         int leftover = d;
+
         while (this.children.size() > 0 && leftover > 0) {
             leftover = this.children.get(this.children.size()-1).takeDamage(leftover);
-            if (this.children.get(this.children.size()-1).Die()) {
+            if (this.children.get(this.children.size()-1).die()) {
                 this.children.remove(this.children.size()-1);
             }
         }

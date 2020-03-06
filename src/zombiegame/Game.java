@@ -105,7 +105,7 @@ public class Game {
         while (this.zombies.size() > 0) {
             this.zombies.get(0).takeDamage(damage);
 
-            if (this.zombies.get(0).Die()) {
+            if (this.zombies.get(0).die()) {
                 this.zombies.remove(0);
             }
 

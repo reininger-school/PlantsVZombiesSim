@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="257498ed-64c8-4a6a-a287-51f8ade15379" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/zombiegame/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/zombiegame/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zombiegame/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zombiegame/zombiebuilder/Cone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zombiegame/zombiebuilder/Cone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/zombiegame/zombiebuilder/EnemyObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zombiegame/zombiebuilder/EnemyObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/zombiegame/zombiebuilder/Zombie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zombiegame/zombiebuilder/Zombie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zombiegame/zombiebuilder/ZombieBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zombiegame/zombiebuilder/ZombieBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,22 +89,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1583488852391" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1583494390785">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1583495244408">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583494390785" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1583494390785">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583495244408" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1583495244408">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583494390785" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1583494390785">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583495244408" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1583495244408">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583494390785" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1583494390785">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583495244408" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1583495244408">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583494390785" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583495244408" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1583494093429">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

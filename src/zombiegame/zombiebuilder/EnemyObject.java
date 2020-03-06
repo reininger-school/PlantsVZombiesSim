@@ -23,7 +23,13 @@ public abstract class EnemyObject {
     }
 
     public int getHealth() {
-        return this.health;
+        int totalHealth = this.health;
+
+        for (var accessory : this.children) {
+            totalHealth += accessory.getHealth();
+        }
+
+        return totalHealth;
     }
 
     /*
@@ -41,8 +47,8 @@ public abstract class EnemyObject {
     /*
     Return true if dead.
      */
-    public boolean Die() {
-        return this.health <= 0;
+    public boolean die() {
+        return this.getHealth() <= 0;
     }
 
     /*

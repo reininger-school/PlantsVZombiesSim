@@ -1,4 +1,4 @@
-package zombiebuilder;
+package zombiegame.zombiebuilder;
 
 /*
 Represents door zombie accessory. Leaf in composite pattern.

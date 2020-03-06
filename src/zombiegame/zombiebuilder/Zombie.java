@@ -1,4 +1,4 @@
-package zombiebuilder;
+package zombiegame.zombiebuilder;
 
 /*
 Represents Zombie enemy. Serves as composite class in composite pattern Serves as composite class in composite pattern.

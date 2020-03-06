@@ -1,4 +1,4 @@
-package zombiebuilder;
+package zombiegame.zombiebuilder;
 
 /*
 Builds Zombies.

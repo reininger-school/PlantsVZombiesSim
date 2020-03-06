@@ -1,4 +1,4 @@
-package zombiebuilder;
+package zombiegame.zombiebuilder;
 
 /*
 Represents a zombie cone accessory. Leaf in composite pattern.

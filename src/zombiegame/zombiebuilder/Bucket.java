@@ -1,4 +1,4 @@
-package zombiebuilder;
+package zombiegame.zombiebuilder;
 
 /*
 Represents a zombie bucket. Leaf in composite pattern.

@@ -35,16 +35,16 @@ public abstract class EnemyObject {
     }
 
     /*
+    Actions to perform on death.
+     */
+    public void Die() {
+    }
+
+    /*
     Return ith child.
      */
     public EnemyObject getChild(int child) {
         return this.children.get(child);
-    }
-
-    /*
-    Actions to perform on death.
-     */
-    public void Die() {
     }
 
     /*

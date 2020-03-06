@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="257498ed-64c8-4a6a-a287-51f8ade15379" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/zombiebuilder/EnemyObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zombiebuilder/EnemyObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zombiebuilder/Zombie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zombiebuilder/Zombie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

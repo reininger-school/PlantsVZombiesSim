@@ -9,11 +9,29 @@ public abstract class EnemyObject {
     private int health;
     private List<EnemyObject> children;
 
+    private void setHealth(int health) {
+        if (health < 0) {
+            health = 0;
+        }
+
+        this.health = health;
+    }
+
+    public int getHealth() {
+        return this.health;
+    }
+
     /*
-    Take damage.
+    Take damage. Return leftover damage.
      */
     public int takeDamage(int d) {
-        return 0;
+        int leftover = 0;
+        int newHealth = this.getHealth() - d;
+        this.setHealth(newHealth);
+        if (newHealth < 0) {
+            leftover = -newHealth;
+        }
+        return leftover;
     }
 
     /*

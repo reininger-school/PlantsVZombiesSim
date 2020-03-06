@@ -44,20 +44,20 @@ public abstract class EnemyObject {
     Return ith child.
      */
     public EnemyObject getChild(int child) {
-        return this.children.get(child);
+        return null;
     }
 
     /*
     Add child EnemyObject.
      */
     public void add(EnemyObject child) {
-        this.children.add(child);
+        // do nothing
     }
 
     /*
     Remove child.
      */
     public void remove(EnemyObject child) {
-        this.children.remove(child);
+        // do nothing
     }
 }

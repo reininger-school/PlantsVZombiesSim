@@ -51,6 +51,7 @@ public abstract class EnemyObject {
     Add child EnemyObject.
      */
     public void add(EnemyObject child) {
+        this.children.add(child);
     }
 
     public void remove(EnemyObject child){}

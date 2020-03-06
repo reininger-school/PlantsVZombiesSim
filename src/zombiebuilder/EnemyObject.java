@@ -54,5 +54,10 @@ public abstract class EnemyObject {
         this.children.add(child);
     }
 
-    public void remove(EnemyObject child){}
+    /*
+    Remove child.
+     */
+    public void remove(EnemyObject child) {
+        this.children.remove(child);
+    }
 }

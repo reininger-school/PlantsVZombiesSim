@@ -1,7 +1,0 @@
-
-W
-java:S1118":Add a private constructor to hide the implicit public one.(àªÅö8İ„úŠ.
-F
-java:S1144")Remove this unused private "main" method.(¬‹êË8…½‰úŠ.
-H
-java:S1172"+Remove this unused method parameter "args".(¬‹êË8¹ÄŒúŠ.
